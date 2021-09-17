@@ -262,3 +262,10 @@ html, body {
     box-sizing: border-box;
     resize: vertical;
   }
+
+  textarea {
+    width: 300px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: vertical;
+  }
