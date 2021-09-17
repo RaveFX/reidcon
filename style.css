@@ -257,6 +257,7 @@ input[type=submit] {
   margin: 8px 0;
   box-sizing: border-box;
   border-width: 0px;
+  margin-left: 200px;
 }
 
   input[type=reset] {
@@ -268,6 +269,7 @@ input[type=submit] {
     margin: 8px 0;
     box-sizing: border-box;
     border-width: 0px;
+    float: right;
 }
 textarea {
   width: 300px;
