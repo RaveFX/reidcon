@@ -103,7 +103,7 @@ html, body {
     color: white;
     height: 50px;
   }
-  td{
+  .toptable td{
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -137,6 +137,7 @@ html, body {
     margin-bottom: 0px;
     font-size: 30px;
   }
+  
   .BIGTEXT1{
     width: 35%;
     float: right;
