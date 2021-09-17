@@ -178,7 +178,8 @@ html, body {
     width: 35%;
     float: right;
     margin-top: 0px;
-    font-size: 50px;
+    margin-bottom: 0%;
+    font-size: 72px;
     font-weight: 200;
 }
 
@@ -201,6 +202,7 @@ html, body {
   width: 65%;
 }
 .tab1{
+  margin-top: -20px;
   float: right;
   width: 35%;    
 } 
