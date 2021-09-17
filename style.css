@@ -137,127 +137,117 @@ html, body {
     margin-bottom: 0px;
     font-size: 30px;
   }
-  /*.para2{
-    padding-left: 300px;
-  }*/
-
-  @keyframes float {
-    0% {
-      
-      transform: translatey(0px);
-    }
-    50% {
-      
-      transform: translatey(-20px);
-    }
-    100% {
-      
-      transform: translatey(0px);
-    }
-  }
-
-  .photo .app1{
-    width: 30%;
-    height: 30%;
-    float: left;
-    margin-right: 0px;
-    padding-top: 150px ;
-    padding-left: 60px;
-    height: 500px;
-    width: 600px;
-    transform: translatey(0px);
-	  animation: float 6s ease-in-out infinite;
-    
-  }
- 
   .BIGTEXT1{
-      width: 40%;
-      float: right;
-      margin-top: 0px;
-      font-size: 50px;
-      font-weight: 200;
-  }
-  .tab1{
+    width: 35%;
     float: right;
-    width: 35%; 
-    margin-right: 60px;   
-  } 
-  .p1{
-    text-align: left;
-  }
-  .p2{
-    text-align: justify;
-  }
-  .p3{
-    text-align: right;
-  }
-  mark.red{
-    color: #FF312E;
-    background: none;
-  }
-  mark.wide{
-    background-color: #EEEEEE;
-    width: 200px;
-  }
-
-  .form{
-    margin-left: auto;
-    width: 30%;
-    height: 100vh;
-    margin-right: auto;
-
-  }
-  
-  
-
-  input[type=comment] {
-    width: 300px;
-    height: 300px;
     margin-top: 0px;
-    box-sizing: border-box;
-    text-align: top;
-    resize: vertical;
-  }
+    font-size: 50px;
+    font-weight: 200;
+}
 
-  input[type=text] {
-    width: 300px;
+.app1{
+  padding-top: 0px ;
+  padding-left: 60px;
+  height: 500px;
+  width: 650px;
+}
+
+.INDEX{
+  margin-top: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 110vh;
+}
+.photo{
+  margin-top: 70px;
+  float: left;
+  width: 65%;
+}
+.tab1{
+  float: right;
+  width: 35%;    
+} 
+.p1{
+  text-align: left;
+}
+.p2{
+  text-align: justify;
+}
+.p3{
+  text-align: right;
+}
+mark.red{
+  color: #FF312E;
+  background: none;
+}
+mark.wide{
+  background-color: #EEEEEE;
+  width: 200px;
+}
+.form{
+  margin-left: 600px;
+  width: 40%;
+  height: 100vh;
+  margin-right: 60px;
+
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  width: 70px;
+  text-align: center;
+  border-radius: 2px;
+  margin-right: -10px;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  width: 50px;
+  margin: 10px 0;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  font-weight: 700;
+  background-color:#FCAF58;
+  width: 100px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-width: 0px;
+}
+
+  input[type=reset] {
+    font-weight: 700;
+    background-color:#DDDDDD;
+    width: 100px;
+    border-radius: 10px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+    border-width: 0px;
+}
+textarea {
+  width: 300px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: vertical;
+}
 
-  input[type=checkbox] {
-    width: 70px;
-    text-align: center;
-    border-radius: 2px;
-    margin-right: -10px;
-    box-sizing: border-box;
-  }
- 
-  input[type=radio] {
-    width: 50px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-  
-  select {
-    width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
 
-  textarea {
-    width: 300px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    resize: vertical;
-  }
 
-  textarea {
-    width: 300px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    resize: vertical;
-  }
+
+
+

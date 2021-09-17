@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,102 +14,81 @@
 
     <div class="BIGTEXT1">
     <p>Why HTML?</p></div>
-
-
-
-<div>
-    <div class="photo">
-        <img src="app.png" class="app1">
-    </div>
-  
+    <div class="INDEX">
+        <div class="photo">
+            <img src="app.png" class="app1">
+        </div>
     <div class="tab1">
-        <hr><p>HTML (Following Paragraph is Left Aligned)</p><hr>
+    <hr><p>HTML (Following Paragraph is Left Aligned)</p><hr>
+    <p class="p1">HTML is responsible for giving a semantic meaning for your content.<code>&lt;br&gt;</code>For example:
+        <ol><li>Here is a <code>&lt;h5&gt;</code><h5>tittle</h5><code>&lt;/h5&gt;</code></li>
+        <li>Followed by a<code>&lt;p&gt;</code>Paragraph<code>&lt;/p&gt;</code></li>
+        <li>Then there’s a footer [etc].</li>
+        </ol>
+        Web browsers read it to display your content according to their importance (a title is bigger than a text, a <code>&lt;strong&gt;</code>"<strong>strong</strong>" <code>&lt;/strong&gt;</code> text is more important than a single text, etc).<code>&lt;tt&gt;</code> crawlers<code>&lt;/tt&gt;</code>(like robots) use it to identify what content is relevant to their activity (i.e. google needs your page title to show it on his page).
+        </p>
+    <hr>CSS (Pollowing Paragraph is Justified)<hr>
+    <p class="p2">CSS gives a style to your application.It's fundamentally destined to the user. It allows to say <mark class="red">"this text is red"</mark>, <mark class="wide">"this block is 200px wide"</mark> ,etc. It's "basically"not used by crawlers but it has some importance (some robot avoid to render a text if it's hidden for example)
 
-        <p class="p1">HTML is responsible for giving a semantic meaning for your content.<code>&lt;br&gt;</code>For example:
-            <ol><li>Here is a <code>&lt;h5&gt;</code><h5>tittle</h5><code>&lt;/h5&gt;</code></li>
-                <li>Followed by a<code>&lt;p&gt;</code>Paragraph<code>&lt;/p&gt;</code></li>
-                <li>Then there’s a footer [etc].</li>
-            </ol>
-            Web browsers read it to display your content according to their importance (a title is bigger than a text, a <code>&lt;strong&gt;</code>"<strong>strong</strong>" <code>&lt;/strong&gt;</code> text is more important than a single text, etc).<code>&lt;tt&gt;</code> crawlers<code>&lt;/tt&gt;</code>(like robots) use it to identify what content is relevant to their activity (i.e. google needs your page title to show it on his page).
-            </p>
-        <hr>CSS (Pollowing Paragraph is Justified)<hr>
-        <p class="p2">CSS gives a style to your application.It's fundamentally destined to the user. It allows to say <mark class="red">"this text is red"</mark>, <mark class="wide">"this block is 200px wide"</mark> ,etc. It's "basically"not used by crawlers but it has some importance (some robot avoid to render a text if it's hidden for example)
-    
-        </p>
-        <hr>JavaScript (Following Paragraph is right Aligned)<hr>
-        <p class="p3">
-            JavaScript, which is the only programming language of these 3, allows you to perform actions in real time (like showing a dialog when the user click a button).
-        </p>
+    </p>
+    <hr>JavaScript (Following Paragraph is right Aligned)<hr>
+    <p class="p3">
+        JavaScript, which is the only programming language of these 3, allows you to perform actions in real time (like showing a dialog when the user click a button).
+    </p>
+    </div>
+    </div>
+    <div class="form">
+        <h1>Sample Form</h1>
+        <form>
+            <table class="table2">
+                <tbody><tr>
+                    <td>Name :</td>
+                    <td><input type="text" placeholder="Name" name=""></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="text" placeholder="Email Address" name=""></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="Gender">Male <input type="radio" name="Gender">Female
+                    </td>
+                </tr>
+                <tr><td>Academic Year :</td>
+                    <td><select>
+                        <option disabled selected>Select from list</option>
+                           <option>First Year</option>
+                           <option>Second Year</option>
+                           <option>Third Year</option>
+                           <option>Fourth Year</option>
+                       </select> </td>
+                </tr>
+                <tr>
+                    <td>Familiar in :</td>
+                    <td>
+                        <input type="checkbox" name="Familiar in">HTML
+                        <input type="checkbox" name="Familiar in">CSS
+                        <input type="checkbox" name="Familiar in">JS
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Comment :
+                    </td>
+                    <td>
+                    <textarea rows="10" cols="50" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
+                    </td>    
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </tbody></table>
+            
+        </form>
         </div>
     
-
-</div>
-
-
-<div class="form">
-    <form>
-        <table>
-            <tr>
-                <td>
-                    Name :
-                </td>
-                <td>
-                    <input type="text" placeholder="Name"name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Email :
-                </td>
-                <td>
-                    <input type="text" placeholder="Email Address" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Gender :
-                </td>
-                <td>
-                    <input type="radio" name="Gender">Male
-                    <input type="radio" name="Gender">Female
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Academic Year :
-                </td>
-                <td>
-                   <select>
-                       <option>1st Year</option>
-                       <option>2nd Year</option>
-                       <option>3rd Year</option>
-                       <option>4th Year</option>
-                   </select> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Familiar in :
-                </td>
-                <td>
-                    <input type="checkbox" name="Familiar in">HTML
-                    <input type="checkbox" name="Familiar in">CSS
-                    <input type="checkbox" name="Familiar in">JS
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Comment :
-                </td>
-                <td>
-                <textarea rows="10" cols="50" name="comment" form="usrform">Enter text here...</textarea>
-                </td>    
-
-
-            </tr>
-        </table>
-    </form>
-</div>
+    
 
 </body>
 </html>
