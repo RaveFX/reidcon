@@ -120,15 +120,26 @@ html, body {
     color: rgba(78, 89, 140, 1);
     text-align: center;
   }
-  .headsample{
+
+  .tabletopic{
+    position: static;
+    float: center;
+    text-align: left;
     margin-top: 490px;
-    padding-left: 300px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+  }
+
+
+  .headsample{
+    float: center;
+    margin-top: 490px;
     margin-bottom: 0px;
     font-size: 30px;
   }
-  .para2{
+  /*.para2{
     padding-left: 300px;
-  }
+  }*/
 
   @keyframes float {
     0% {
