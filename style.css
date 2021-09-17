@@ -2,7 +2,7 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #fff;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -144,6 +144,7 @@ html, body {
     padding-right: 10px;
     text-align: center;
     min-width: 200px;
+    font-weight:400;
     
   }
   tr{
