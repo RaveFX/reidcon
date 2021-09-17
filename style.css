@@ -53,7 +53,7 @@ html, body {
     
 }
 
-  .topnav a {
+  .topnav a{
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -61,7 +61,10 @@ html, body {
     padding-top: 20px;
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
   }
+
 
   .topnav a:hover {
     background-color: #ddd;
@@ -71,6 +74,8 @@ html, body {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    cursor: pointer;
+    
   }
 
   .BIGTEXT p {
@@ -108,7 +113,7 @@ html, body {
 
   }  
   .button1 {
-   background-color: #FCAF58;
+    background-color: rgb(252, 175, 88);
     width: 150px;
     height:50px;
     margin-top: 0px;
@@ -116,7 +121,15 @@ html, body {
     border-radius: 10px;
     border-width: 0px;
     box-shadow: 2px 2px 5px grey;
-  }
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+  .button1:hover {
+    background-color: #4E598C;
+    color: white;
+    }
+
   .hero1 {
     float: right;
     width: 600px;
@@ -126,6 +139,7 @@ html, body {
     margin-top: -280px;
     margin-left: 700px;
     margin-right: 100px;
+    
   }
   .toptable {
     float: center;
@@ -258,6 +272,7 @@ input[type=checkbox] {
   border-radius: 2px;
   margin-right: -10px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 input[type=radio] {
@@ -265,6 +280,7 @@ input[type=radio] {
   margin: 10px 0;
   margin-left: 50px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 input[type=submit] {
   font-weight: 700;
@@ -276,7 +292,14 @@ input[type=submit] {
   box-sizing: border-box;
   border-width: 0px;
   margin-left: 200px;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
+input[type=submit]:hover {
+  background-color: #4E598C;
+  color: white;
+  }
 
   input[type=reset] {
     font-weight: 700;
@@ -288,7 +311,14 @@ input[type=submit] {
     box-sizing: border-box;
     border-width: 0px;
     float: right;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+input[type=reset]:hover {
+  background-color: #4E598C;
+  color: white;
+  }
 textarea {
   width: 300px;
   margin: 8px 0;
