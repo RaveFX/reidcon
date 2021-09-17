@@ -13,6 +13,35 @@ html, body {
     background-color: rgba(78, 89, 140, 1);
     height: 60px;
   }
+
+  @keyframes float {
+    0% {
+      
+      transform: translatey(0px);
+    }
+    50% {
+      
+      transform: translatey(-20px);
+    }
+    100% {
+      
+      transform: translatey(0px);
+    }
+  }
+
+  .photo .app1{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 0px;
+    padding-top: 150px ;
+    padding-left: 60px;
+    height: 500px;
+    width: 600px;
+    transform: translatey(0px);
+	  animation: float 6s ease-in-out infinite;
+    
+  }
   
   .headerlogo {
     float: left;
