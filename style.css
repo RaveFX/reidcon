@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(78, 89, 140, 1);
+    height: 60px;
+  }
+  
+  .headerlogo {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 0%;
+    overflow: auto;
+    margin-top: -60px;
+    
+}
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .BIGTEXT p {
+    float: left;
+    color: #050505;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+  }
+
+  .paragraph {
+    float: left;
+    padding-right: 900px;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #050505;
+
+  }
+  code {
+    background-color: #EEEEEE;
+    }
+  .button1 {
+   background-color: #FCAF58;
+    width: 150px;
+    height:50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 2px 2px 5px grey;
+  }
+  .hero1 {
+    float: right;
+    width: 600px;
+    height: 350px;
+    border-radius: 0%;
+    overflow: auto;
+    margin-top: -280px;
+    margin-left: 700px;
+    margin-right: 100px;
+  }
+  .toptable {
+    float: center;
+    margin-top: 0px;
+    margin-left: 300px;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 10px grey ;
+  
+  }
+  th {
+    background-color: rgba(78, 89, 140, 1);
+    color: white;
+    height: 50px;
+  }
+  td{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    min-width: 200px;
+    
+  }
+  tr{
+    height: 50px;
+  }
+  .toptable tr:nth-child(odd) {
+    background-color:#EEEEEE;
+  }
+  .interval{
+    color: rgba(78, 89, 140, 1);
+    text-align: center;
+  }
+  .headsample{
+    margin-top: 490px;
+    padding-left: 300px;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .para2{
+    padding-left: 300px;
+  }
+
+  @keyframes float {
+    0% {
+      
+      transform: translatey(0px);
+    }
+    50% {
+      
+      transform: translatey(-20px);
+    }
+    100% {
+      
+      transform: translatey(0px);
+    }
+  }
+
+  .photo .app1{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 0px;
+    padding-top: 150px ;
+    padding-left: 60px;
+    height: 500px;
+    width: 600px;
+    transform: translatey(0px);
+	  animation: float 6s ease-in-out infinite;
+    
+  }
+ 
+  .BIGTEXT1{
+      width: 40%;
+      float: right;
+      margin-top: 0px;
+      font-size: 50px;
+      font-weight: 200;
+  }
+  .p1{
+    float: right;
+    width: 40%;
+    line-height: 1.6;
+    margin-right: 60px;
+    margin-top: 0px;
+    text-align: left;
+  }  
+  
+  .p2{
+    float: right;
+    width: 40%;
+    line-height: 1.6;
+    margin-right: 60px;
+    margin-top: 0px;
+    text-align:justify ;
+  }  
+
+  .p3{
+    float: right;
+    width: 40%;
+    line-height: 1.6;
+    margin-right: 60px;
+    margin-top: 0px;
+    text-align: left ;
+    margin-left: 3000px;
+  } 
+
+  .p4{
+    float: right;
+    width: 40%;
+    line-height: 1.6;
+    margin-right: 60px;
+    margin-top: 0px;
+    text-align: right ;
+    margin-left: 3000px;
+  } 
+  
+  .botform{
+    text-align: left;
+    float: center;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding-left: 0px;
+  } 
+
+  .botform .td{
+    text-align: left;
+  } 
+
+  input[type=comment] {
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    text-align: top;
+    resize: vertical;
+  }
+
+  input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox] {
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: -10px;
+    box-sizing: border-box;
+  }
+ 
+  input[type=radio] {
+    width: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 300px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: vertical;
+  }
