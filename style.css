@@ -166,56 +166,38 @@ html, body {
       font-size: 50px;
       font-weight: 200;
   }
+  .tab1{
+    float: right;
+    width: 35%; 
+    margin-right: 60px;   
+  } 
   .p1{
-    float: right;
-    width: 40%;
-    line-height: 1.6;
-    margin-right: 60px;
-    margin-top: 0px;
     text-align: left;
-  }  
-  
+  }
   .p2{
-    float: right;
-    width: 40%;
-    line-height: 1.6;
-    margin-right: 60px;
-    margin-top: 0px;
-    text-align:justify ;
-  }  
-
+    text-align: justify;
+  }
   .p3{
-    float: right;
-    width: 40%;
-    line-height: 1.6;
-    margin-right: 60px;
-    margin-top: 0px;
-    text-align: left ;
-    margin-left: 3000px;
-  } 
+    text-align: right;
+  }
+  mark.red{
+    color: #FF312E;
+    background: none;
+  }
+  mark.wide{
+    background-color: #EEEEEE;
+    width: 200px;
+  }
 
-  .p4{
-    float: right;
-    width: 40%;
-    line-height: 1.6;
-    margin-right: 60px;
-    margin-top: 0px;
-    text-align: right ;
-    margin-left: 3000px;
-  } 
+  .form{
+    margin-left: auto;
+    width: 30%;
+    height: 100vh;
+    margin-right: auto;
+
+  }
   
-  .botform{
-    text-align: left;
-    float: center;
-    width: 40%;
-    margin-top: 100px;
-    margin-left: 500px;
-    padding-left: 0px;
-  } 
-
-  .botform .td{
-    text-align: left;
-  } 
+  
 
   input[type=comment] {
     width: 300px;
