@@ -8,6 +8,9 @@ html, body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+/* TOP NAVIGATION BAR *************************************************************/
+
   .topnav{
     overflow: hidden;
     background-color:#4E598C;
@@ -48,6 +51,8 @@ html, body {
     
   }
 
+  /* HOME PAGE TITLE********************************************************************/
+
   .BIGTEXT p {
     float: left;
     color: #050505;
@@ -60,6 +65,8 @@ html, body {
     margin-top: 50px;
     margin-bottom: 30px;
   }
+
+  /* HOME PAGE PARAGRAPH *****************************************************************/
 
   .paragraph {
     line-height: 1.6;
@@ -76,11 +83,15 @@ html, body {
     background-color: #EEEEEE;
   }
 
+  /* WHY PAGE CODE FONTS *******************************************************/
+
   code.whycode{
   background-color: #fff;
   font-weight: bold;
   font-size: x-large;
   }  
+
+  /* HOME PAGE MAIN BUTTON *****************************************************/
 
   .button1 {
     background-color: rgb(252, 175, 88);
@@ -99,6 +110,8 @@ html, body {
     background-color: #4E598C;
     color: white;
   }
+
+  /* HOME PAGE HERO IMAGE ************************************************************/
 
   .hero1 {
     float: right;
@@ -141,6 +154,7 @@ html, body {
     100% {opacity:1;}
   }
 
+  /* HOME PAGE TABLE ******************************************************************/
 
   .toptable {
     float: center;
@@ -154,7 +168,7 @@ html, body {
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
-    animation-delay: 1s;
+    
   }
 
   th {
@@ -203,6 +217,8 @@ html, body {
     font-size: 30px;
   }
   
+  /* WHY PAGE TITLE ******************************************************************/
+
   .BIGTEXT1{
     width: 40%;
     float: right;
@@ -214,27 +230,7 @@ html, body {
     font-weight: 200;
   }
 
-  .app1{
-  padding-top: 0px ;
-  padding-left: 0px;
-  height: auto;
-  width: 500;
-  }
-
-  @keyframes float {
-  0% {
-    
-    transform: translatey(0px);
-  }
-  50% {
-    
-    transform: translatey(-20px);
-  }
-  100% {
-    
-    transform: translatey(0px);
-  }
-  }
+  /* WHY PAGE APP IMAGE ***************************************************************/
 
   .photo .app1{
   width: 30%;
@@ -249,6 +245,22 @@ html, body {
   animation: float 6s ease-in-out infinite;
   }
 
+
+  @keyframes float {
+    0% {
+      
+      transform: translatey(0px);
+    }
+    50% {
+      
+      transform: translatey(-20px);
+    }
+    100% {
+      
+      transform: translatey(0px);
+    }
+  }
+
   .INDEX{
   margin-top: 120px;
   margin-left: 60px;
@@ -256,11 +268,7 @@ html, body {
   height: 110vh;
   }
 
-  .photo{
-  margin-top: 70px;
-  float: left;
-  width: 45%;
-  }
+  /* WHY PAGE DESCRIPTION ******************************************************************/
 
   .tab1{
   line-height: 1.6;
@@ -303,6 +311,9 @@ html, body {
   background-color: #EEEEEE;
   width: 200px;
   }
+
+
+  /* WHY PAGE FORM ***************************************************************************/
 
   .form{
   float: right;
