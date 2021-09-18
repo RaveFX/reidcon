@@ -285,11 +285,6 @@ html, body {
   -ms-animation: fadeIn 5s;
   } 
 
-  .space{
-  width: 10%;
-  float: inline-end;
-  }
-
   .p1{
   text-align: left;
   }
